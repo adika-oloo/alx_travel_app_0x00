@@ -1,7 +1,7 @@
 ALX Travel App - Airbnb Clone Backend
 
 A Django REST Framework-based backend for an Airbnb-like travel application, built as part of the ALX portfolio project.
-🚀 Features
+ Features
 
     User Authentication: JWT-based authentication system
 
@@ -19,7 +19,7 @@ A Django REST Framework-based backend for an Airbnb-like travel application, bui
 
     Database Seeding: Management command for sample data
 
-🛠️ Technology Stack
+ Technology Stack
 
     Backend Framework: Django 4.2.7
 
@@ -37,7 +37,7 @@ A Django REST Framework-based backend for an Airbnb-like travel application, bui
 
     CORS Handling: django-cors-headers
 
-📋 Project Structure
+ Project Structure
 text
 
 alx_travel_app/
@@ -57,7 +57,7 @@ alx_travel_app/
 ├── requirements.txt       # Python dependencies
 └── .env                  # Environment variables
 
-🗄️ Database Models
+ Database Models
 Key Entities:
 
     User: Authentication and user profiles
@@ -69,8 +69,7 @@ Key Entities:
     Review: Guest reviews and host responses
 
     Payment: Transaction records
-
-🔌 API Endpoints
+ API Endpoints
 Authentication
 
     POST /api/auth/register - User registration
@@ -111,7 +110,7 @@ Reviews
 
     PUT /api/reviews/{id}/ - Update review
 
-🚦 Installation & Setup
+ Installation & Setup
 Prerequisites
 
     Python 3.8+
@@ -186,7 +185,7 @@ bash
 
 python manage.py runserver
 
-📊 Database Seeding
+ Database Seeding
 
 The project includes a management command to populate the database with sample data:
 bash
@@ -203,7 +202,7 @@ This command creates:
 
     Reviews and ratings
 
-📖 API Documentation
+ API Documentation
 
 Access interactive API documentation at:
 
@@ -211,14 +210,14 @@ Access interactive API documentation at:
 
     ReDoc: http://localhost:8000/redoc/
 
-🧪 Testing
+ Testing
 
 Run the test suite:
 bash
 
 python manage.py test
 
-🚀 Deployment
+ Deployment
 Production Settings
 
     Set DEBUG=False
@@ -242,7 +241,7 @@ SECRET_KEY=your-production-secret-key
 DATABASE_URL=mysql://user:password@host:port/database
 ALLOWED_HOSTS=yourdomain.com,www.yourdomain.com
 
-🤝 Contributing
+ Contributing
 
     Fork the repository
 
